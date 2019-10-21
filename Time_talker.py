@@ -6,6 +6,7 @@ rate = voiceEngine.getProperty('rate')
 volume = voiceEngine.getProperty('volume')
 voice = voiceEngine.getProperty('voice')
 
+#get current time
 present_time = time.ctime()
 time = int(present_time[11:13])
 # SystemExit
